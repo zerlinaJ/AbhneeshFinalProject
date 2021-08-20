@@ -8,9 +8,9 @@ class Form {
    this.background.scale = 0.35;
    this.title = createSprite(windowWidth/2 - 100,90);
    this.play = createSprite(windowWidth/2 - 100,windowHeight/2 -50)
-   this.titleImage = loadImage("./images/titleimage.png")
+   this.titleImage = loadImage("./images/titleImage.png")
    this.title.addImage(this.titleImage)
-   this.playImage = loadImage("./images/startbutton.png")
+   this.playImage = loadImage("./images/startButton.png")
    this.play.addImage(this.playImage)                          
   }
   hide(){
