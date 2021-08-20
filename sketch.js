@@ -167,12 +167,12 @@ if(lazer.collide(asteroidTitan)){
  
   lazer.lifetime = 0;
   touchFlag = 1;
-  frame = frame +1; 
+
   console.log(frame)
   score= score+1
 
 
-if(touchFlag===1 && frame % 10 ===0){
+if(touchFlag===1 && frame % 100 ===0){
   score = score + 100;
   gameState = "end"
 }
@@ -182,7 +182,7 @@ if(touchFlag===1 && frame % 10 ===0){
 
 }
 
-
+  frame = frame +1; 
 
 if(spaceship.isTouching(asteroidsmallGroup)|| spaceship.isTouching(asteroidmediumGroup) || spaceship.isTouching(asteroidTitan)){
   gameState="lostlife"
