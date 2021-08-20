@@ -172,7 +172,7 @@ if(lazer.collide(asteroidTitan)){
   score= score+1
 
 
-if(touchFlag===1 && frame % 150 ===0){
+if(touchFlag===1 && frame % 50 ===0){
   score = score + 100;
   gameState = "end"
 }
