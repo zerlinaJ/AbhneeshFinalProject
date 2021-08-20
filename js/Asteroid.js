@@ -3,7 +3,7 @@ constructor(){
    
 }
 spawn(){
-    if(score<2){
+    if(score<5){
 
     
     if(frameCount%60 === 0){
@@ -34,7 +34,7 @@ this.asteroid.velocityY=4;
     
     
 }
-else if(score>=2){
+else if(score>=5){
   
   flag=1;
 }
